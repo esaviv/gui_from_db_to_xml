@@ -34,6 +34,7 @@ touch .env
 ```
 python3 upload_data.py | python uplaod_data.py
 ```
+При необходимости упаковать программу в EXE формат рекомендую использовать [инструкцию](https://dzen.ru/a/YqCdN_1gJkixXCf4).
 
 ## Автор
 esaviv
