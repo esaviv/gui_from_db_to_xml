@@ -1,8 +1,9 @@
 # gui_from_db_to_xml
 Программа с графическим интерфейсом для выгрузки данных из БД PostgreSQL в формате .xml.
-
-**Стек технологий:** python3.9, python-dotenv, psycopg2, pandas, numpy, lxml
-
+### Технологии
+Python 3.9, python-dotenv 1.0.0, psycopg2 2.9.6, pandas 2.0.1, numpy 1.24.3, lxml 4.9.2
+## Автор
+esaviv
 ## Как запустить проект:
 Клонировать репозиторий и перейти в него в командной строке:
 ```
@@ -26,9 +27,7 @@ python3 -m pip install --upgrade pip | python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 Создать .env и заполнить по шаблону .env.template
-```
-touch .env
-```
+
 Переписать ```data_to_xml```, исходя из своих нужд.
 
 Запустить программу:
@@ -36,6 +35,3 @@ touch .env
 python3 upload_data.py | python uplaod_data.py
 ```
 При необходимости упаковать программу в EXE формат рекомендую использовать [инструкцию](https://dzen.ru/a/YqCdN_1gJkixXCf4).
-
-## Автор
-esaviv
